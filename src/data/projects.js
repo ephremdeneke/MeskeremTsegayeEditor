@@ -1,0 +1,87 @@
+export const categories = [
+  'All',
+  'Commercial Videos',
+  'Music Videos',
+  'Event Highlights',
+  'YouTube Videos',
+  'Social Media Reels',
+  'Documentary',
+  'Motion Graphics',
+]
+
+const asset = (name) => `/assets/${name}`
+
+export const projects = [
+  {
+    id: 1,
+    title: 'Golden Hour Roast',
+    category: 'Commercial Videos',
+    description: 'A warm, cinematic commercial capturing the ritual of morning coffee for an artisan roastery.',
+    thumbnail: 'https://picsum.photos/seed/goldenhour/800/600',
+    video: asset('05d06c5e18ca45012767ef9649831887.mp4'),
+  },
+  {
+    id: 2,
+    title: 'Echoes in Frame',
+    category: 'Music Videos',
+    description: 'Visual poetry set to an acoustic track — slow motion, light leaks, and quiet emotion.',
+    thumbnail: 'https://picsum.photos/seed/echoes/800/600',
+    video: asset('2026-07-08-170844670.mp4'),
+  },
+  {
+    id: 3,
+    title: 'Wedding of A & M',
+    category: 'Event Highlights',
+    description: 'A heartfelt highlight film blending candid moments with cinematic storytelling.',
+    thumbnail: 'https://picsum.photos/seed/weddingam/800/600',
+    video: asset('2026-07-21-154959756.mp4'),
+  },
+  {
+    id: 4,
+    title: 'Creator Diaries Ep. 07',
+    category: 'YouTube Videos',
+    description: 'Fast-paced edit with kinetic typography and dynamic B-roll for a creator channel.',
+    thumbnail: 'https://picsum.photos/seed/creatordiaries/800/600',
+    video: asset('2026-08-27-230117966.mp4'),
+  },
+  {
+    id: 5,
+    title: 'Morning Routine Reel',
+    category: 'Social Media Reels',
+    description: 'Vertical reel crafted for Instagram — snappy cuts, trending audio sync, warm grade.',
+    thumbnail: 'https://picsum.photos/seed/morningreel/800/600',
+    video: asset('lv_0_20260706150416.mp4'),
+  },
+  {
+    id: 6,
+    title: 'The Last Barista',
+    category: 'Documentary',
+    description: 'Short documentary following a third-generation barista and his disappearing craft.',
+    thumbnail: 'https://picsum.photos/seed/lastbarista/800/600',
+    video: asset('VID_20260919_230707_083.mp4.mov'),
+  },
+  {
+    id: 7,
+    title: 'Liquid Motion Pack',
+    category: 'Motion Graphics',
+    description: 'Abstract motion graphics exploring fluid dynamics and coffee-inspired palettes.',
+    thumbnail: 'https://picsum.photos/seed/liquidmotion/800/600',
+    video: asset('VID_20260919_230737_567.mp4.mov'),
+  },
+  {
+    id: 8,
+    title: 'Brew & Bloom',
+    category: 'Commercial Videos',
+    description: 'Lifestyle spot for a specialty coffee brand — slow pours, steam, and sunlight.',
+    thumbnail: 'https://picsum.photos/seed/brewbloom/800/600',
+    video: asset('VID_20260919_230828_796.mp4.mov'),
+  },
+  {
+    id: 9,
+    title: 'Neon Nights',
+    category: 'Music Videos',
+    description: 'High-energy edit with glitch transitions and neon color grading for an indie artist.',
+    thumbnail: 'https://picsum.photos/seed/neonnights/800/600',
+    video: asset('05d06c5e18ca45012767ef9649831887.mp4'),
+  },
+]
