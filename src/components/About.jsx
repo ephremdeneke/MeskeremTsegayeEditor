@@ -15,7 +15,7 @@ export default function About() {
           >
             <div className="relative">
               <img
-                src="https://picsum.photos/seed/portraitmeski/700/900"
+                src="/assets/profile.png"
                 alt="Meski portrait"
                 loading="lazy"
                 className="w-full h-[520px] object-cover rounded-sm shadow-soft"
